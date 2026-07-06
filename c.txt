@@ -1,0 +1,111 @@
+pwd Print current working directory.
+
+ls -l Detailed list with permissions, owner, size and date.
+
+ls -a Show hidden files.
+
+ls -lh Detailed list with human readable sizes.
+
+cd ~ Go to home directory.
+
+cd / Go to root directory.
+
+cd - Go to previous directory.
+
+mkdir -p a/b/c Create nested directories.
+
+touch file.txt Create empty file.
+
+nano file.sh Open or edit a file.
+
+cat file.txt Display file contents.
+
+head file.txt Show first 10 lines.
+
+head -5 file.txt Show first 5 lines.
+
+tail file.txt Show last 10 lines.
+
+tail -5 file.txt Show last 5 lines.
+
+less file.txt View file page by page.
+
+cp file1 file2 Copy file.
+
+cp -r folder1 folder2 Copy directory.
+
+mv old new Rename or move file.
+
+rm file Delete file.
+
+rm -r folder Delete directory recursively.
+
+rmdir folder Delete empty directory.
+
+find . -name “*.txt” Find files.
+
+grep “text” file Search text.
+
+grep -i text file Case insensitive search.
+
+grep -v text file Show lines not matching.
+
+grep -c text file Count matching lines.
+
+wc file Count lines, words and characters.
+
+wc -l file Count lines.
+
+wc -w file Count words.
+
+wc -c file Count characters.
+
+sort file Sort lines.
+
+uniq file Remove duplicate adjacent lines.
+
+echo “Hello” Print text.
+
+echo “Hello” > file.txt Overwrite file.
+
+echo “Hello” >> file.txt Append to file.
+
+command < input.txt Input redirection.
+
+ls | wc -l Pipe output.
+
+chmod +x script.sh Give execute permission.
+
+chmod 755 file Owner rwx, group r-x, others r-x.
+
+chmod 644 file Owner rw-, group r–, others r–.
+
+chown user file Change owner.
+
+whoami Current user.
+
+who Logged in users.
+
+hostname System hostname.
+
+date Current date and time.
+
+uptime System uptime.
+
+df -h Disk usage.
+
+free -h Memory usage.
+
+env Environment variables.
+
+Ctrl+O Save in nano.
+
+Ctrl+X Exit nano.
+
+Ctrl+K Cut line in nano.
+
+Ctrl+U Paste cut text in nano.
+
+Ctrl+W Search in nano.
+
+Ctrl+Shift+V Paste into terminal.

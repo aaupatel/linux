@@ -1,0 +1,96 @@
+Shell Script Template
+
+#!/bin/bash
+
+echo “Enter value” read n
+
+echo $n
+
+Variable
+
+name=“Ayush” echo $name
+
+Arithmetic
+
+sum=((a + b))sub=((a-b)) mul=((a * b))div=((a/b)) mod=$((a%b))
+
+Comparison Operators
+
+-eq -ne -gt -lt -ge -le
+
+File Tests
+
+-f File exists -d Directory exists -r Readable -w Writable -x Executable
+
+If
+
+if [ condition ] then commands fi
+
+If Else
+
+if [ condition ] then commands else commands fi
+
+If Elif Else
+
+if [ condition ] then commands elif [ condition ] then commands else
+commands fi
+
+Case
+
+case $choice in 1) commands ;; 2) commands ;; *) commands ;; esac
+
+For Loop
+
+for((i=1;i<=10;i++)) do commands done
+
+While Loop
+
+while [ condition ] do commands done
+
+Until Loop
+
+until [ condition ] do commands done
+
+Command Line Arguments
+
+$0 Script name $1 First argument $2 Second argument 3Thirdargument#
+Total arguments $@ All arguments
+
+Even Odd
+
+if [ $((n%2)) -eq 0 ] then echo “Even” else echo “Odd” fi
+
+Positive Negative Zero
+
+if [ $n -gt 0 ] then echo “Positive” elif [ $n -lt 0 ] then echo
+“Negative” else echo “Zero” fi
+
+Reverse Number
+
+rev=0 while [ n − gt0]dorem=((n%10)) rev=((rev * 10 + rem))n=((n/10))
+done echo $rev
+
+Multiplication Table
+
+for((i=1;i<=10;i++)) do echo “$n x $i = $((n*i))” done
+
+Factorial
+
+fact=1 for((i=1;i<=n;i++)) do fact=$((fact*i)) done echo $fact
+
+Prime
+
+flag=0 i=2 while [ $i -le $((n/2)) ] do if [
+((nthenflag = 1breakfii=((i+1)) done if [ $flag -eq 1 ] then echo “Not
+Prime” else echo “Prime” fi
+
+Palindrome String
+
+rev=$(echo $str | rev)
+if [ "$str” = “$rev” ] then echo “Palindrome” else echo “Not Palindrome”
+fi
+
+Sum of Digits
+
+sum=0 while [ n − gt0]dodigit=((n%10)) sum=((sum + digit))n=((n/10))
+done echo $sum
